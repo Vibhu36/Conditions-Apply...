@@ -1,0 +1,54 @@
+#include<stdio.h>
+main()
+{
+printf("\t""\t""\t""ROMEO LANE RESTAURANT""\n""\n");
+printf("MENU""\n""\n");
+printf("HERE's THE YUMMILICIOUS FOOD LIST FOR U!!""\n");
+
+printf("1. PIZZA""\n");
+printf("2. BURGER""\n");
+printf("3. PASTA""\n");
+printf("4. MOMOS""\n");
+printf("5. GARLIC BREAD""\n");
+printf("6. FRENCH FRIES""\n");
+printf("7. SANDWICH""\n""\n");
+
+int choice=0;
+scanf("%d",&choice);
+
+switch(choice)
+{
+	case 1:
+		printf(" Food Item - PIZZA""\n");
+		printf(" Price  - Rs 239""\n""\n");
+		break;
+	case 2:
+		printf(" Food Item - BURGER""\n");
+		printf(" Price  - Rs 129""\n""\n");
+		break;
+	case 3:
+		printf(" Food Item - PASTA""\n");
+		printf(" Price  - Rs 179""\n""\n");
+		break;
+	case 4:
+		printf(" Food Item - MOMOS""\n");
+		printf(" Price  - Rs 79""\n""\n");
+		break;
+	case 5:
+		printf(" Food Item - GARLIC BREAD""\n");
+		printf(" Price  - Rs 119""\n""\n");
+		break;
+	case 6:
+		printf(" Food Item - FRENCH FRIES""\n");
+		printf(" Price  - Rs 99""\n""\n");
+		break;
+	case 7:
+		printf(" Food Item - SANDWICH""\n");
+		printf(" Price  - Rs 149""\n""\n");
+		break;
+	default:
+		printf("invalid choice");
+	
+		
+}
+}
