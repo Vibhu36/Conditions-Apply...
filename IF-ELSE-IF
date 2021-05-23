@@ -1,0 +1,128 @@
+#include<stdio.h>
+main()
+{
+	printf("MARKS OF CLASS IX FINAL EXAMINATION\n\n");
+	printf("Enter your marks here!!\n\n");
+	printf("1. MATHS=    ");
+	int MATHS=0;
+	scanf("%d", &MATHS);
+	printf("2. ENGLISH=  ");
+	int ENGLISH=0;
+	scanf("%d", &ENGLISH);
+		printf("3. HINDI=    ");
+	int HINDI=0;
+	scanf("%d", &HINDI);
+		printf("4. SCIENCE=  ");
+	int SCIENCE=0;
+	scanf("%d", &SCIENCE);
+		printf("5. SST=    ");
+	int SST=0;
+	scanf("%d", &SST);
+		printf("6. COMPUTER= ");
+	int COMPUTER=0;
+	scanf("%d", &COMPUTER);
+	
+	printf("\n""\t""""HERE'S YOUR GRADES!!\n");
+		if(MATHS >= 85)
+	   {printf("1. GRADE A""\n");
+	   }
+	else if(MATHS >= 70)
+       	{printf("1. GRADE B""\n");
+	    }
+	else if(MATHS >= 55)
+       	{printf("1. GRADE C""\n");
+	    }
+	else if(MATHS >= 40)
+       	{printf("1. GRADE D""\n");
+       	
+	    }
+	else
+	    {printf("1. GRADE F""\n");
+	    }	
+	
+	if(ENGLISH >= 85)
+	   {printf("2. GRADE A""\n");
+	   }
+	else if(ENGLISH >= 70)
+       	{printf("2. GRADE B""\n");
+	    }
+	else if(ENGLISH >= 55)
+       	{printf("2. GRADE C""\n");
+	    }
+	else if(ENGLISH >= 40)
+       	{printf("2. GRADE D""\n");
+       	
+	    }
+	else
+	    {printf("2. GRADE F""\n");
+	    }
+	    
+	if(HINDI >= 85)
+	   {printf("3. GRADE A""\n");
+	   }
+	else if(HINDI >= 70)
+       	{printf("3. GRADE B""\n");
+	    }
+	else if(HINDI >= 55)
+       	{printf("3. GRADE C""\n");
+	    }
+	else if(HINDI >= 40)
+       	{printf("3. GRADE D""\n");
+       	
+	    }
+	else
+	    {printf("3. GRADE F""\n");
+	    }
+
+if(SCIENCE >= 85)
+	   {printf("4. GRADE A""\n");
+	   }
+	else if(SCIENCE >= 70)
+       	{printf("4. GRADE B""\n");
+	    }
+	else if(SCIENCE >= 55)
+       	{printf("4. GRADE C""\n");
+	    }
+	else if(SCIENCE >= 40)
+       	{printf("4. GRADE D""\n");
+       	
+	    }
+	else
+	    {printf("4. GRADE F""\n");
+	    }
+
+    
+    if(SST >= 85)
+	   {printf("5. GRADE A""\n");
+	   }
+	else if(SST >= 70)
+       	{printf("5. GRADE B""\n");
+	    }
+	else if(SST >= 55)
+       	{printf("5. GRADE C""\n");
+	    }
+	else if(SST >= 40)
+       	{printf("5. GRADE D""\n");
+       	
+	    }
+	else
+	    {printf("5. GRADE F""\n");
+	    }
+	
+	if(COMPUTER >= 85)
+	   {printf("6. GRADE A""\n");
+	   }
+	else if(COMPUTER >= 70)
+       	{printf("6. GRADE B""\n");
+	    }
+	else if(COMPUTER >= 55)
+       	{printf("6. GRADE C""\n");
+	    }
+	else if(COMPUTER >= 40)
+       	{printf("6. GRADE D""\n");
+       	
+	    }
+	else
+	    {printf("6. GRADE F""\n");
+	    }
+}
